@@ -31,7 +31,7 @@ package main
 import (
 	"log"
 
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	tgbotapi "github.com/zfesd/telegram-bot-api/v6.7"
 )
 
 func main() {
@@ -72,7 +72,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	"github.com/zfesd/telegram-bot-api/v6.7"
 )
 
 func main() {

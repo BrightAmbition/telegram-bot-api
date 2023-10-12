@@ -10,7 +10,7 @@ approaches to solve common problems.
 ## Installing
 
 ```bash
-go get -u github.com/go-telegram-bot-api/telegram-bot-api/v5
+go get -u github.com/zfesd/telegram-bot-api/v6.7
 ```
 
 ## A Simple Bot
@@ -30,7 +30,7 @@ package main
 import (
 	"os"
 
-	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
+	tgbotapi "github.com/zfesd/telegram-bot-api/v6.7"
 )
 
 func main() {
