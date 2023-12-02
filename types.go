@@ -1,9 +1,9 @@
 package tgbotapi
 
 import (
-	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/goccy/go-json"
 	"net/url"
 	"strings"
 	"time"
@@ -2066,7 +2066,7 @@ type ChatMemberUpdated struct {
 	//
 	// optional
 	InviteLink *ChatInviteLink `json:"invite_link,omitempty"`
-	// ViaChatFolderInviteLink is True, if the user joined the chat 
+	// ViaChatFolderInviteLink is True, if the user joined the chat
 	// via a chat folder invite link
 	//
 	// optional
